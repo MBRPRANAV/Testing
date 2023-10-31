@@ -13,6 +13,7 @@ int main()
 	for(i=0;i<5;i++)
 	{
 		printf("search list\n");
+		printf("One change\n");
 		scanf("%d",&sarr[i]);
 	}
 	for(i=0;i<5;i++)
