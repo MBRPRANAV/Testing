@@ -8,6 +8,7 @@ int main()
 	for(i=0;i<5;i++)
 	{
 		printf("Main list\n");
+		printf("Second list\n");
 		scanf("%d",&arr[i]);
 	}
 	for(i=0;i<5;i++)
