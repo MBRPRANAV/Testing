@@ -1,1 +1,1 @@
-<a href="https://twitter.com/bhargav ram pranav mutyalapalli" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="bhargav ram pranav mutyalapalli" height="30" width="40" /></a>
+<p align="left"> <a href="https://twitter.com/bhargav ram pranav mutyalapalli" target="blank"><img src="https://img.shields.io/twitter/follow/bhargav ram pranav mutyalapalli?logo=twitter&style=for-the-badge" alt="bhargav ram pranav mutyalapalli" /></a> </p>
