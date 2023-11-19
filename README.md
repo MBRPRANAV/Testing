@@ -1,3 +1,5 @@
+# gstreamer-rs [![crates.io](https://img.shields.io/crates/v/gstreamer.svg)](https://crates.io/crates/gstreamer) [![pipeline status](https://gitlab.freedesktop.org/gstreamer/gstreamer-rs/badges/main/pipeline.svg)](https://gitlab.freedesktop.org/gstreamer/gstreamer-rs/commits/main)
+
 # GStreamer Cropping Plugin
 
 ## Overview
@@ -45,4 +47,17 @@ cd gstreamer-cropping-plugin
 cmake -B build/
 cd build
 make
-sudo cp libgstcroptech.so /usr/lib/x86-linux-gnu
+sudo cp libgstcroptech.so /usr/lib/x86_64-linux-gnu/gstreamer-1.0/
+
+## Usuage
+
+Once the GStreamer Cropping Plugin is installed, you can use it in your GStreamer pipelines. The element name for this plugin is croptech. Here's an example of how to use the Cropping Plugin in a GStreamer pipeline:
+
+```console
+$ gst-launch-1.0 -v filesrc location=input.mp4 ! decodebin ! croptech width=320 height=240 xc0=0 yco=0 ! autovideosink
+
+```console
+gst-launch-1.0 videotestsrc ! croptech width=320 height=240 xco=0 yco=0 ! autovideosink
+
+```console
+gst-launch-1.0 -v filesrc location=input.mp4 ! decodebin ! croptech top=50 left=100 right=200 bottom=150 ! autovideosink
