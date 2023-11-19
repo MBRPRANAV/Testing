@@ -1,1 +1,1 @@
-<p align="left"> <a href="https://twitter.com/bhargav ram pranav mutyalapalli" target="blank"><img src="https://img.shields.io/twitter/follow/bhargav ram pranav mutyalapalli?logo=twitter&style=for-the-badge" alt="bhargav ram pranav mutyalapalli" /></a> </p>
+<p align="left"> <a href="FORMAT" target="blank"><img src="https://img.shields.io?style=for-the-badge" alt="YUY2" /></a> </p>
