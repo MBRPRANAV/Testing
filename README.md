@@ -1,6 +1,6 @@
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-YUY2-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-YUY2-Color" alt="Your Badge Content" style="width: 150px; height: 30px;" />
   </a>
 </p>
 <p align="left">
