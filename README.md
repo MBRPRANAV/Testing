@@ -41,7 +41,7 @@ Plugins can work with any raw input stream(filesrc, videotestsrc, v4l2src) at it
 
 Ensure that you have GStreamer installed on your system before proceeding with the installation of the Cropping Plugin. Follow these steps:
 
-```console
+```bash
 git clone https://github.com/BhargavRamPranav/gstreamer-cropping-plugin.git
 cd gstreamer-cropping-plugin
 cmake -B build/
@@ -55,11 +55,55 @@ sudo cp libgstcroptech.so /usr/lib/x86_64-linux-gnu/gstreamer-1.0/
 Once the GStreamer Cropping Plugin is installed, you can use it in your GStreamer pipelines. The element name for this plugin is croptech. Here's an example of how to use the Cropping Plugin in a GStreamer pipeline:
 
 ```console
-$ gst-launch-1.0 -v filesrc location=input.mp4 ! decodebin ! croptech width=320 height=240 xco=0 yco=0 ! autovideosink
+$ gst-launch-1.0 -v filesrc location=input.mp4 ! decodebin ! croptech width=320 height=240 xc0=0 yco=0 ! autovideosink
 ```
+In this example, the filesrc element reads the input video file (input.mp4), and decodebin automatically selects the appropriate decoder for the file. The croptech element is then used to crop the video, specifying the cropping region with the parameters width,height,xco and yco. Finally, the autovideosink element is used to display the cropped video.
+
 ```console
 gst-launch-1.0 videotestsrc ! croptech width=320 height=240 xco=0 yco=0 ! autovideosink
 ```
+In this example, the videotestsrc element generates the raw video . The croptech element is then used to crop the video, specifying the cropping region with the parameters width,height,xco and yco. Finally, the autovideosink element is used to display the cropped video.
+
 ```console
 gst-launch-1.0 -v filesrc location=input.mp4 ! decodebin ! croptech top=50 left=100 right=200 bottom=150 ! autovideosink
 ```
+In this example, the filesrc element reads the input video file (input.mp4), and decodebin automatically selects the appropriate decoder for the file. The croptech element is then used to crop the video, specifying the cropping region with the parameters width,height,xco and yco. Finally, the autovideosink element is used to display the cropped video.
+
+
+## Plugin Parameters
+The croptech element supports the following parameters:
+
+width: The width you want to crop the frame.
+height: The height you want to crop the frame.
+xco: The x coordinate of the cropping region.
+yco: The y coordinate of the cropping region.
+
+
+Example Pipelines
+Crop a region from a live camera feed
+```console
+gst-launch-1.0 -v v4l2src ! videoconvert ! croptech top=20 left=30 right=200 bottom=150 ! autovideosink
+```
+
+Crop a region from a video file and save the output
+```console
+gst-launch-1.0 -v v4l2src ! videoconvert ! croptech top=20 left=30 right=200 bottom=150 ! autovideosink
+```
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contributing
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
+Changelog
+See the CHANGELOG.md file for details about the changes between versions.
+
+Acknowledgements
+Hat tip to anyone whose code was used
+Inspiration
+etc
+If you use this plugin in your project, consider adding your name/company to the acknowledgments.
+
+
+
