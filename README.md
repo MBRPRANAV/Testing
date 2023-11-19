@@ -199,16 +199,16 @@ Crop a region from a video file and save the output
 gst-launch-1.0 -v v4l2src ! videoconvert ! croptech top=20 left=30 right=200 bottom=150 ! autovideosink
 ```
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contributing
+## Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-Changelog
+## Changelog
 See the CHANGELOG.md file for details about the changes between versions.
 
-Acknowledgements
+## Acknowledgements
 Hat tip to anyone whose code was used
 Inspiration
 etc
