@@ -1,3 +1,5 @@
 <p align="left">
-  <a href="https://twitter.com/bhargav%20ram%20pranav%20mutyalapalli" target="_blank">Follow me on Twitter</a>
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Your-Content-Color" alt="Your Badge Content" />
+  </a>
 </p>
