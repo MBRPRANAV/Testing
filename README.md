@@ -9,7 +9,7 @@ Developed a GStreamer plugin that crops the incoming raw video data from given o
 This should support stranded formats like 
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-RGBx-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-RGBx-ff69b4" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
