@@ -22,7 +22,116 @@ This should support stranded formats like
     <img src="https://img.shields.io/badge/Format-xRGB-Color" alt="Your Badge Content" />
   </a>
 </p>
-RGBx, xRGB, BGRx, xBGR, RGBA, ARGB,BGRA, ABGR, RGB, BGR, AYUV, YUY2, YVYU, UYVY, I420, YV12, RGB16, RGB15, GRAY8, NV12, NV21,GRAY16_LE, GRAY16_BE.
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-BGRx-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-xBGR-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-RGBA-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-ARGB-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-BGRA-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-ABGR-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-RGB-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-BGR-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-AYUV-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-YVYU-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-UYVY-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-I420-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-YV12-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-RGB16-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-RGB15-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-GRAY8-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-NV12-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-NV16-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-NV24-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-NV21-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-GRAY16_LE-Color" alt="Your Badge Content" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://your-link-here" target="_blank">
+    <img src="https://img.shields.io/badge/Format-GRAY16_BE-Color" alt="Your Badge Content" />
+  </a>
+</p>
 
 Plugins can work with any raw input stream(filesrc, videotestsrc, v4l2src) at its sink side and output size filesink, kmssink, fakevideosink on its src pad.
 
