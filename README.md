@@ -34,7 +34,7 @@ This should support stranded formats like
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-RGBA-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-RGBA-FF0000" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
@@ -44,22 +44,22 @@ This should support stranded formats like
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-BGRA-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-BGRA-800080" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-ABGR-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-ABGR-" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-RGB-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-RGB-A52A2A" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-BGR-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-BGR-808080" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
