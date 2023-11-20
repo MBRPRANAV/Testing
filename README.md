@@ -164,7 +164,7 @@ sudo cp libgstcroptech.so /usr/lib/x86_64-linux-gnu/gstreamer-1.0/
 Once the GStreamer Cropping Plugin is installed, you can use it in your GStreamer pipelines. The element name for this plugin is croptech. Here's an example of how to use the Cropping Plugin in a GStreamer pipeline:
 
 ```console
-$ gst-launch-1.0 -v filesrc location=input.mp4 ! decodebin ! croptech width=320 height=240 xc0=0 yco=0 ! autovideosink
+$ gst-launch-1.0 filesrc location=input.mp4 ! decodebin ! croptech width=320 height=240 xc0=0 yco=0 ! autovideosink
 ```
 In this example, the filesrc element reads the input video file (input.mp4), and decodebin automatically selects the appropriate decoder for the file. The croptech element is then used to crop the video, specifying the cropping region with the parameters width,height,xco and yco. Finally, the autovideosink element is used to display the cropped video.
 
@@ -174,7 +174,7 @@ gst-launch-1.0 videotestsrc ! croptech width=320 height=240 xco=0 yco=0 ! autovi
 In this example, the videotestsrc element generates the raw video . The croptech element is then used to crop the video, specifying the cropping region with the parameters width,height,xco and yco. Finally, the autovideosink element is used to display the cropped video.
 
 ```console
-gst-launch-1.0 -v filesrc location=input.mp4 ! decodebin ! croptech top=50 left=100 right=200 bottom=150 ! autovideosink
+gst-launch-1.0 v4l2src ! videoconvert ! croptech width=320 height=240 xco=0 yco=0 ! autovideosink
 ```
 In this example, the filesrc element reads the input video file (input.mp4), and decodebin automatically selects the appropriate decoder for the file. The croptech element is then used to crop the video, specifying the cropping region with the parameters width,height,xco and yco. Finally, the autovideosink element is used to display the cropped video.
 
@@ -191,12 +191,12 @@ yco: The y coordinate of the cropping region.
 Example Pipelines
 Crop a region from a live camera feed
 ```console
-gst-launch-1.0 -v v4l2src ! videoconvert ! croptech top=20 left=30 right=200 bottom=150 ! autovideosink
+gst-launch-1.0 v4l2src ! videoconvert ! croptech width=320 height=240 xco=0 yco=0 ! autovideosink
 ```
 
-Crop a region from a video file and save the output
+Crop a region from a videotestsrc generator and save the output
 ```console
-gst-launch-1.0 -v v4l2src ! videoconvert ! croptech top=20 left=30 right=200 bottom=150 ! autovideosink
+ gst-launch-1.0 videotestsrc num-buffers=10 ! video/x-raw,format=NV12,width=1920,height=1080 ! croptech ! filesink location=output.nv12
 ```
 
 ## License
