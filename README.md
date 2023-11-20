@@ -69,12 +69,12 @@ This should support stranded formats like
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-YVYU-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-YVYU-0000FF" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-UYVY-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-UYVY-A52A2A" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
@@ -99,7 +99,7 @@ This should support stranded formats like
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-GRAY8-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-GRAY8-808080" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
@@ -124,12 +124,12 @@ This should support stranded formats like
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-GRAY16_LE-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-GRAY16_LE-808080" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-GRAY16_BE-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-GRAY16_BE-808080" alt="Your Badge Content" />
   </a>
 </p>
 
@@ -216,4 +216,9 @@ etc
 If you use this plugin in your project, consider adding your name/company to the acknowledgments.
 
 
+/* Linear Gradient Example */
+background: linear-gradient(to right, #ff69b4, #00bfff);
+
+/* Radial Gradient Example */
+background: radial-gradient(circle, #ff69b4, #00bfff);
 
