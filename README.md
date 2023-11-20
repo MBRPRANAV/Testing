@@ -104,12 +104,12 @@ This should support stranded formats like
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-NV12-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-NV12-FFFF00" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-NV16-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-NV16-800080" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
@@ -119,7 +119,7 @@ This should support stranded formats like
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-NV21-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-NV21-000000" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
@@ -214,11 +214,4 @@ Hat tip to anyone whose code was used
 Inspiration
 etc
 If you use this plugin in your project, consider adding your name/company to the acknowledgments.
-
-
-/* Linear Gradient Example */
-background: linear-gradient(to right, #ff69b4, #00bfff);
-
-/* Radial Gradient Example */
-background: radial-gradient(circle, #ff69b4, #00bfff);
 
