@@ -49,7 +49,7 @@ This should support stranded formats like
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-ABGR-" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-ABGR-ff69b4" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
