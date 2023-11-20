@@ -79,17 +79,17 @@ This should support stranded formats like
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-I420-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-I420-FF0000" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-YV12-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-YV12-FFC0CB" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
   <a href="https://your-link-here" target="_blank">
-    <img src="https://img.shields.io/badge/Format-RGB16-Color" alt="Your Badge Content" />
+    <img src="https://img.shields.io/badge/Format-RGB16-FFA500" alt="Your Badge Content" />
   </a>
 </p>
 <p align="left">
