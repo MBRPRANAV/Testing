@@ -201,6 +201,7 @@ Crop a region from a videotestsrc generator and save the output
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+GStreamer itself is licensed under the Lesser General Public License version 2.1 or (at your option) any later version: https://www.gnu.org/licenses/lgpl-2.1.html
 
 ## Contributing
 Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
