@@ -6,7 +6,7 @@
 
 The GStreamer Cropping Plugin is a custom element that allows users to crop video streams in a GStreamer pipeline. This plugin provides a flexible way to define and apply cropping regions to video frames, enabling users to focus on specific areas of interest in the video.
 Developed a GStreamer plugin that crops the incoming raw video data from given ordinates and given size of cropping. 
-This should support stranded formats like 
+This should support standard formats like 
 <p align="left">
   <a href="https://your-link-here" target="_blank">
     <img src="https://img.shields.io/badge/Format-RGBx-ff69b4" alt="Your Badge Content" />
